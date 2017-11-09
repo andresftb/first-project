@@ -25,7 +25,11 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale, se
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by separating the line segments by their slope ((y2-y1)/(x2-x1)) to decide which segments are part of the left line vs. the right line. Then I did a linear regression with respect of the top and bottom points of the image to find the best fit line for the lanes.
 
+If you'd like to include images to show how the pipeline works, here is how to include an image: 
+
 <img src="Withline right.png" width="480" alt="Combined Image" />
+
+<img src="YellowLine.png" width="480" alt="Combined Image" />
 
 ### 2. Identify potential shortcomings with your current pipeline
 
