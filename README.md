@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, second I applied the Gaussian Noise kernel to find the blur image. The third step was to apply the canny function to find the edges of the lanes. In the forth step I applied the Hough transform. The last and fifth step was to draw the lines. 
+My pipeline consisted of 5 steps. First, I converted the images to grayscale, second I applied the Gaussian Noise kernel to find the blur image. The third step was to apply the canny function to find the edges of the lanes. In the forth step I applied the Hough transform. The fifth step was to draw the lines. 
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by separating the line segments by their slope ((y2-y1)/(x2-x1)) to decide which segments are part of the left line vs. the right line. Then I did a linear regression with respect of the top and bottom points of the image to find the best fit line for the lanes.
 
