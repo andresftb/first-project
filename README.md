@@ -13,9 +13,8 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report
 
 
-[//]: # (Image References)
+![alt text](Withline right.png)
 
-[image1]: .Withline right.png "solidWhiteCurve"
 
 ---
 
