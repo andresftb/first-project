@@ -13,7 +13,7 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report
 
 
-![alt text](Withline right.png)
+![Image](./Withline right.png)
 
 
 ---
